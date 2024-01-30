@@ -1,0 +1,88 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+  *:focus {
+    outline: none;
+}
+*{
+  box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  /* text-align: center; */
+  /* background-color:   hsl(234, 29%, 20%); */
+}
+body{
+  background-color:   hsl(234, 29%, 20%);
+
+} 
+@media(max-width: 768px) {
+  .container {
+      /* flex-direction: column; */
+      flex-direction: column-reverse;
+  }
+}
+
+.container{
+  background-color:   hsl(0, 0%, 100%);
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 30px;
+  gap: 30px;
+  }
+
+.container1{
+  background-color:   hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 400px;
+  gap: 20px;
+}
+.icone1{
+  width: 50px;
+}
+.inputError{
+  border: 2px solid hsl(4, 100%, 67%);
+  color: hsl(4, 100%, 67%);;
+}
+.messageError{
+  color: hsl(4, 100%, 67%);  
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.email{
+  display: flex;
+  gap: 200px ;
+}
+.inputButton{
+  display: flex;
+  flex-direction: column;
+  gap: 10px ;
+}
+input[type=text] {
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+ input:hover{
+  border: 2px solid black;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+
+
