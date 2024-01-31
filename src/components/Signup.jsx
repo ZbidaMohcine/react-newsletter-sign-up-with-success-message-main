@@ -1,5 +1,5 @@
 import { useState } from "react"
-import image from "../assets/images/illustration-sign-up-desktop.svg"
+import image from "/assets/images/illustration-sign-up-desktop.svg"
 
 export default function Signup({setIsForm,setEmail,email}) {
 
