@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ZbidaMohcine.github.io/react-newsletter-sign-up-with-success-message-main /",
+  "homepage": "https://github.com/ZbidaMohcine/react-newsletter-sign-up-with-success-message-main.git",
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d dist",
