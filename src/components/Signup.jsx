@@ -21,9 +21,9 @@ export default function Signup({setIsForm,setEmail,email}) {
         </div>
         <div>
             <ul>
-                <ol><img src="src/assets/images/icon-list.svg"/> Product discovery and building what matters</ol>
-                <ol><img src="src/assets/images/icon-list.svg"/> Measuring to ensure updates are a success</ol>
-                <ol><img src="src/assets/images/icon-list.svg"/> And much more!</ol>
+                <ol><img src="assets/images/icon-list.svg"/> Product discovery and building what matters</ol>
+                <ol><img src="assets/images/icon-list.svg"/> Measuring to ensure updates are a success</ol>
+                <ol><img src="assets/images/icon-list.svg"/> And much more!</ol>
             </ul>
         </div>
         <div className="row">
